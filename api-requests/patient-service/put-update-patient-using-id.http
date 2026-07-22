@@ -1,0 +1,10 @@
+### PUT request to update a patient using patient ID
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "patientName": "Elizabeth Olsen ",
+  "patientEmail": "elizabeth.olsen@example.com",
+  "patientAddress": "985,main street"
+}
+###

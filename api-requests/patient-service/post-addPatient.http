@@ -1,0 +1,13 @@
+### POST request to add a patient entity
+POST http://localhost:4004/api/patients
+Content-Type: application/json
+
+{
+  "patientName": "Fade",
+  "patientEmail": "Fade.val10@example.com",
+  "patientAddress": "Istanbul,Turkey",
+  "patientDateOfBirth": "1987-12-15",
+  "patientRegisterDate": "2025-05-13"
+}
+
+###
